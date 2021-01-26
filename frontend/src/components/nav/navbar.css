@@ -1,0 +1,26 @@
+#navbar {
+    background-color: var(--background);
+    height: 10%;
+}
+
+.navbar-mmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background: inherit;
+    max-width: 600px;
+    height: 61px;
+}
+
+.navbar-mmenu__item-link{
+    padding: 12px;
+    color: var(--white);
+    font-family: SemplicitaPro-Medium, sans-serif;
+}
+
+a:link{
+    color: inherit;
+    text-decoration: none;
+}
