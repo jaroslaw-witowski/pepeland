@@ -1,7 +1,11 @@
 import React from "react";
 import './navbar.css';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+
+}
+
+const Navbar: React.FC <NavbarProps> = () => {
 
   const linksCategories: string[] = [
     "Mężczyźni",
@@ -19,7 +23,7 @@ const Navbar: React.FC = () => {
           return (
             <li key={linksCategories.indexOf(e)} className="navbar-mmenu__item">
               <a href={`${e}`} className={`navbar-mmenu__item-link link__${e}`}>
-                {e}
+                {e.toUpperCase()}
               </a>
             </li>
           );

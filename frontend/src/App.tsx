@@ -1,11 +1,17 @@
 import React from 'react';
+import Navbar from './components/navbar/Navbar'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      Initial frontend
-    </div>
+    <BrowserRouter>
+    <Navbar />
+    <Switch>
+      {/* <Route path='/' exact component={}/> */}
+    </Switch>
+    </BrowserRouter>
+
   );
 }
 
