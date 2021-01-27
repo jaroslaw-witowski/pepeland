@@ -1,0 +1,49 @@
+#infobanner {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(245, 160, 25);
+}
+
+.infobanner-textSection {
+    font-size: 16px;
+    width: 60%;
+}
+
+.infobanner-linkSection {
+    width: 30%;
+}
+
+.infobanner-button-link {
+    color: white;
+    background: black;
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+
+}
+
+.infobanner-hideSection {
+    width: 10%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.infobanner-button-close {
+    color: rgb(44, 44, 44);
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
