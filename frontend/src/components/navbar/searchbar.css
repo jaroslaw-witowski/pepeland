@@ -1,7 +1,18 @@
 #navbar-searchbar{
+    display: flex;
     background-color: white;
+    border: none;
+    height: 30px;
 }
 
 .navbar-searchbar-button {
     background: inherit;
+    border: none;
+    outline: none;
+}
+
+.navbar-searchbar-input{
+    outline: none;
+    border: none;
+    text-indent: 10px;
 }

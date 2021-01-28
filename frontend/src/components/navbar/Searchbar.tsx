@@ -4,7 +4,11 @@ import SVGLoader from "./SVGLoader";
 import searchIcon from "../../assets/images/searchicons.svg";
 
 const searchIconStyle = {
-  height: "inherit",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  height: "60%",
   backgroundColor: "iherit",
   border: "none",
 };

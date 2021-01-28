@@ -1,6 +1,12 @@
 
 .navbar-usermenu-menu{
-    width: 30%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    max-height: 30px;
+    background-color: var(--background);
+    right: 0%;
 }
 
 .navbar-usermenu__item{
