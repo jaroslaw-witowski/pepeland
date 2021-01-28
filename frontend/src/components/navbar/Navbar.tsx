@@ -1,8 +1,16 @@
 import React from "react";
+import SVGLoader from './SVGLoader';
+import Searchbar from './Searchbar';
 import './navbar.css';
+import logo from '../../assets/images/logo.svg';
+import UserMenu from "./UserMenu";
 
 interface NavbarProps {
 
+};
+
+const logoStyle = {
+  maxHeight: '39px',
 }
 
 const Navbar: React.FC <NavbarProps> = () => {
@@ -17,7 +25,12 @@ const Navbar: React.FC <NavbarProps> = () => {
   ];
 
   return (
+    <>
+    <div>
+
+    </div>
     <nav id="navbar">
+      <SVGLoader imageAdress={logo} alt='Logo' style={logoStyle}/>
       <ul className="navbar-mmenu">
         {linksCategories.map((e) => {
           return (
@@ -29,7 +42,10 @@ const Navbar: React.FC <NavbarProps> = () => {
           );
         })}
       </ul>
+      <Searchbar/>
+      <UserMenu /> 
     </nav>
+    </>
   );
 };
 

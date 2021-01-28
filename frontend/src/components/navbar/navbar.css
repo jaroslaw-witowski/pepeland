@@ -1,8 +1,14 @@
 #navbar {
     background-color: var(--background);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 5px 20px 16px 30px;
 }
 
 .navbar-mmenu {
+    margin: 0 200px -4px 22px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,9 +22,12 @@
 .navbar-mmenu__item-link{
     padding: 12px;
     color: var(--white);
-    font-family: SemplicitaPro-Medium, sans-serif;
+    font-family: 'Arimo', sans-serif;
     width: 100%;
     height: 100%;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .navbar-mmenu__item-link:hover {
@@ -28,12 +37,5 @@
 
 .link__Sale {
     color: orange;
-}
-
-a:link{
-    color: inherit;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-family: sans-serif;
 }
 
