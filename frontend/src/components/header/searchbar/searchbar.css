@@ -11,6 +11,10 @@
     outline: none;
 }
 
+.navbar-searchbar-button:hover {
+    cursor: pointer;
+}
+
 .navbar-searchbar-input{
     outline: none;
     border: none;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
 interface SVGLoaderProps {
     imageAdress: string,
@@ -6,7 +6,7 @@ interface SVGLoaderProps {
     style?: {},
 } 
 
-const SVGLoader: React.FC <SVGLoaderProps> = ({imageAdress, alt, style}) => {
+const SVGLoader: React.FC <SVGLoaderProps> = ({ imageAdress, alt, style}) => {
     return <img style={style} src={imageAdress} alt={alt}/>
 }
 

@@ -1,16 +1,5 @@
-#navbar {
-    background-color: var(--background);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding: 5px 20px 16px 30px;
-}
-
 .navbar-mmenu {
-    margin: 0px auto -4px 22px;
-    padding: 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     list-style: none;
@@ -26,8 +15,7 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.4rem;
 }
 
 .navbar-mmenu__item-link:hover {

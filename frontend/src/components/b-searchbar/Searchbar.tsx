@@ -1,6 +1,6 @@
 import React from "react";
 import "./searchbar.css";
-import SVGLoader from "./SVGLoader";
+import SVGLoader from "../header/SVGLoader";
 import searchIcon from "../../assets/images/searchicons.svg";
 
 const searchIconStyle = {

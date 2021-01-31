@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar';
+import Header from '../header/Header';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-    <Navbar />
+    <Header />
     <Switch>
       {/* <Route path='/' exact component={}/> */}
     </Switch>
